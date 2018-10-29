@@ -3,7 +3,7 @@
   <groupId>com.elastisys</groupId>
   <artifactId>elastisys-pom-root</artifactId>
   <packaging>pom</packaging>
-  <version>1.0.0</version>
+  <version>0.9.0</version>
   <name>elastisys</name>
   <description>
     Elastisys root pom.
