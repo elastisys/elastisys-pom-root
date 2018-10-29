@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 BASE_POM_REPO_ID="oss-repo"
 BASE_POM_REPO="https://oss.sonatype.org/service/local/staging/deploy/maven2/"
 
