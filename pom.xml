@@ -190,7 +190,7 @@
               <configuration>
                 <image>${docker.image}:${project.version}</image>
                 <newName>
-                  ${docker.remoteName}:${project.version}
+                  ${docker.repo}:${project.version}
                 </newName>
               </configuration>
             </execution>
@@ -203,9 +203,9 @@
               </goals>
               <configuration>
                 <imageName>
-                  ${docker.remoteName}:${project.version}
+                  ${docker.repo}:${project.version}
                 </imageName>
-                <registryUrl>https://${docker.repo}</registryUrl>
+                <registryUrl>https://${docker.registry}</registryUrl>
                 <!-- Docker registry credentials assumed to be in
                     ~/.docker/config.json -->
                 <useConfigFile>true</useConfigFile>
