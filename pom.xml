@@ -353,10 +353,10 @@
             <!-- The reports to generate -->
             <reports>
               <report>index</report>
-              <report>project-team</report>
+              <report>team</report>
               <report>dependency-management</report>
               <report>dependency-info</report>
-              <report>issue-tracking</report>
+              <report>issue-management</report>
               <report>modules</report>
               <report>summary</report>
             </reports>
